@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-// import './cafes.css'
-import '../components/FastFood.css';
 
 
 class Shaurma extends Component {
   render() {
     return (
       <div className="header">
-        <h1>Olalalala</h1>
         {
           this.props.data.map((item, index) => {
             if (item.title === "Шаурма") {
@@ -19,7 +16,7 @@ class Shaurma extends Component {
                     alt={item.name}
                     src={item.img}
                   ></img>
-                  <span>{item.cost} сом</span>
+                  <span> {item.cost} сом</span>
                 </div>
               )
             }

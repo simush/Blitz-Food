@@ -28,10 +28,6 @@ export default class Nav extends React.Component {
         return (
             <Router>
                 <div>
-                    <h3>Fast Food</h3>
-                    <ul>
-                        
-                    </ul>
                     <Switch>
                         <Route path="/" exact component={UI} />
                         <Route path="/FastFoodContainer" component={FastFoodContainer} />

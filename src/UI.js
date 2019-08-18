@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import OrderInfo from './container/order-info';
 import Kitchens from './container/kitchens';
 import Logo from './container/header'
-import { Link } from 'react-router-dom';
 
 class UI extends Component {
 

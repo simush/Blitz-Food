@@ -9,11 +9,9 @@ class Kitchens extends Component {
                <Link className="s" to="FastFoodContainer"><div className="fast-food">
                     <span>Фаст Фуд</span>
                 </div></Link>
-
                 <div className="national-food">
                     <span>Национальная кухня</span>
                 </div>
-
                 <div className="japan-food">
                     <span>Японская кухня</span>
                 </div>
